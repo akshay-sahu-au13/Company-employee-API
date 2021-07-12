@@ -1,0 +1,28 @@
+{
+  "name": "company-employee-api",
+  "version": "1.0.0",
+  "description": "An API server for company structure",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshay-sahu-au13/Company-employee-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshay-sahu-au13/Company-employee-API/issues"
+  },
+  "homepage": "https://github.com/akshay-sahu-au13/Company-employee-API#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2"
+  }
+}
